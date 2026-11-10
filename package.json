@@ -1,0 +1,49 @@
+{
+  "name": "jsondoctor",
+  "version": "1.0.0",
+  "description": "The complete JSON debugging and analysis toolkit: validate, format, compare, diff, repair, flatten, query, schema-check, and inspect JSON.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "jsondoctor": "./src/cli/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "examples": "node examples/complete-demo.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "json",
+    "validate",
+    "diff",
+    "compare",
+    "format",
+    "minify",
+    "jsonpath",
+    "json-schema",
+    "flatten",
+    "repair",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "JSONDoctor contributors",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}
