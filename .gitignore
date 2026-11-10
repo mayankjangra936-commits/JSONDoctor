@@ -1,0 +1,13 @@
+node_modules/
+npm-debug.log*
+.npm/
+.DS_Store
+coverage/
+*.tgz
+.idea/
+.vscode/
+dist/
+tmp/
+.cache/
+.env
+.env.*
