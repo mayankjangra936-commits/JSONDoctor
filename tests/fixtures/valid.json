@@ -1,0 +1,11 @@
+{
+  "user": {
+    "profile": {
+      "name": "John",
+      "email": "john@example.com",
+      "age": 22
+    }
+  },
+  "active": true,
+  "scores": [10, 20, 30]
+}
