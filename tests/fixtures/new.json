@@ -1,0 +1,9 @@
+{
+  "name": "John",
+  "age": 23,
+  "address": {
+    "city": "Mumbai",
+    "country": "India"
+  },
+  "active": true
+}
